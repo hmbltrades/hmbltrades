@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HMBL Trades — The ICT Learning Journey</title>
+<meta name="description" content="Documenting my ICT trading journey, one honest step at a time.">
+<style>
+:root{--bg:#fff;--fg:#0a0a0a;--mute:#6b6b6b;--line:#e4e4e4;--card:#f6f6f6;--inv-bg:#0a0a0a;--inv-fg:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0a0a;--fg:#f5f5f5;--mute:#9a9a9a;--line:#262626;--card:#141414;--inv-bg:#f5f5f5;--inv-fg:#0a0a0a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a0a0a;--fg:#f5f5f5;--mute:#9a9a9a;--line:#262626;--card:#141414;--inv-bg:#f5f5f5;--inv-fg:#0a0a0a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Space Grotesk",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--line)}
+.logo{font-weight:700;letter-spacing:.18em;text-decoration:none;font-size:15px}
+nav div a{margin-left:22px;font-size:14px;color:var(--mute);text-decoration:none}
+nav div a:hover{color:var(--fg)}
+.hero{padding:96px 0 72px;position:relative}
+.eyebrow{font-size:12px;letter-spacing:.22em;color:var(--mute);text-transform:uppercase}
+h1{font-size:clamp(40px,8vw,84px);line-height:1.02;margin:16px 0 20px;letter-spacing:-.03em;max-width:12ch}
+.lead{font-size:19px;color:var(--mute);max-width:52ch;margin:0 0 32px}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--fg);margin:0 10px 10px 0}
+.btn.primary{background:var(--inv-bg);color:var(--inv-fg)}
+.line{position:absolute;right:0;bottom:24px;width:46%;max-width:380px;opacity:.5;pointer-events:none}
+@media(max-width:700px){.line{display:none}}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);margin:0 0 28px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card b{display:block;font-size:20px;margin-bottom:6px}
+.card p{margin:0;color:var(--mute);font-size:15px}
+.num{font-size:12px;color:var(--mute);letter-spacing:.2em}
+.social{display:flex;flex-wrap:wrap;gap:12px}
+.social a{border:1px solid var(--line);border-radius:12px;padding:14px 20px;text-decoration:none;background:var(--card);font-size:15px}
+.social a:hover{border-color:var(--fg)}
+.support{background:var(--inv-bg);color:var(--inv-fg);border-radius:24px;padding:48px 32px;text-align:center}
+.support h3{font-size:clamp(26px,4vw,38px);margin:0 0 10px;letter-spacing:-.02em}
+.support p{margin:0 auto 24px;max-width:48ch;opacity:.75}
+.support .btn{background:var(--inv-fg);color:var(--inv-bg);border-color:var(--inv-fg);margin:0}
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--mute);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="logo" href="#">HMBL TRADES</a><div><a href="#journey">Journey</a><a href="#follow">Follow</a><a href="#support">Support</a></div></nav>
+
+<header class="hero">
+<div class="eyebrow">The ICT learning journey</div>
+<h1>Learning in public. Staying humble.</h1>
+<p class="lead">I'm documenting my path through ICT concepts: what I study, what I get wrong, and what I'm figuring out along the way. No hype, just the work.</p>
+<a class="btn primary" href="https://youtube.com/@hmbltrades">Watch on YouTube</a><a class="btn" href="#support">Support the journey</a>
+<svg class="line" viewBox="0 0 380 120" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M0 100 L50 88 L90 94 L140 66 L185 74 L235 42 L280 52 L330 22 L380 12"/></svg>
+</header>
+
+<section id="journey">
+<h2>The journey</h2>
+<div class="grid">
+<div class="card"><span class="num">01</span><b>Study</b><p>Breaking down ICT concepts until I can explain them simply.</p></div>
+<div class="card"><span class="num">02</span><b>Practice</b><p>Backtesting and journaling every trade, wins and losses alike.</p></div>
+<div class="card"><span class="num">03</span><b>Share</b><p>Weekly updates on video so you can learn from my mistakes.</p></div>
+</div>
+</section>
+
+<section id="follow">
+<h2>Follow along</h2>
+<div class="social">
+<a href="https://youtube.com/@hmbltrades">YouTube</a>
+<a href="https://tiktok.com/@hmbltrades">TikTok</a>
+<a href="https://instagram.com/hmbltrades">Instagram</a>
+<a href="https://x.com/hmbltrades">X</a>
+</div>
+</section>
+
+<section id="support">
+<div class="support">
+<h3>Support HMBL Trades</h3>
+<p>If the content helps you, you can chip in on Ko-fi. It keeps the videos coming and means a lot.</p>
+<a class="btn" href="https://ko-fi.com/hmbltrades">Support on Ko-fi</a>
+</div>
+</section>
+
+<footer>© 2026 HMBL Trades. Educational content only, not financial advice. Trading involves risk.</footer>
+</div>
+</body>
+</html>
